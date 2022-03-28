@@ -77,11 +77,65 @@ legend {
     font-size: 2.4em;
 }
 
-#lbl-nome {
-    margin-left: 49%;
+.nome {
+    margin-left: 30.2em;
 }
 
-#nome {
+.email {
+    margin-left: 30em;
+}
+
+.site {
+    margin-left: 31.5em;
+}
+
+.data {
+    margin-left: 23.1em;
+}
+
+.sexo {
+    margin-left: 31.1em;
+}
+
+#lbl-sexo{
+    margin-right: .2em;
+}
+
+.nivel {
+    margin-left: 35em;
+}
+
+.tecn-1, .tecn-2 {
+    margin-left: 36em;
+}
+
+#frase {
     display: block;
-    margin-left: 43%;
+    margin-left: 36em;
+}
+
+#mensagem {
+    margin-left: 43em;
+}
+
+p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;;
+}
+
+#nome, #email, #site, #dataNasc, #sexo {
+    padding: 1em 7em 1em 1em;
+    border-radius: 1em;
+    border: 2px solid rgba(72,209,204);
+    background-color: rgba(72,209,204, .2);
+    font-family: 'Poppins', sans-serif;;
+    margin-bottom: 1em;
+}
+
+#html {
+    border: 2px solid rgba(72,209,204);
 }
