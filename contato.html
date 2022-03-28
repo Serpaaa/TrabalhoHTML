@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="tela">
+            <header id="cabecalho" class="estrutura">
+                <h1>Formulário de Contato</h1>    
+                <nav id="menu">
+                    <ul>
+                        <a href="index.html"><li>Página Inicial</li></a>
+                        <a href="index.html"><li>Formulário</li></a>
+                    </ul> 
+                </nav>    
+            </header>
+            <main id="corpo" class="estrutura">
+                <form method="post">
+                    <fieldset id="divisoes">
+                        <legend>Seus Dados</legend>
+                        <label for="nome" id="lbl-nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu Nome..."  required>  
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                        <label for="">Site</label>
+                        <input type="url" id="site" name="site" placeholder="exemplo.com.br" required>
+                        <label for="dataNasc">Data de Nascimento</label>
+                        <input type="date" id="dataNasc" name="dataNasc" required>
+                        <label for="sexo">Sexo</label>
+                        <select id="sexo" name="sexo" required>
+                            <option value="Masc">Masculino</option>
+                            <option value="Femi">Feminino</option>
+                            <option value="N_Inf">Prefiro Não Dizer</option>
+                        </select>
+                        <input type="radio" id="estudante" name="nivel">
+                        <label for="estudante">Estudante</label>
+                        <input type="radio" id="profissional" name="nivel">
+                        <label for="profissional">Profissional</label>
+                        <input type="checkbox" id="html" name="html" value="html">
+                        <label for="html">HTML</label>
+                        <input type="checkbox" id="css" name="css" value="css">
+                        <label for="css">CSS</label>
+                        <input type="checkbox" id="javasc" name="javasc" value="javasc">
+                        <label for="javasc">JAVASCRIPT</label>
+                        <input type="checkbox" id="php" name="php" value="php">
+                        <label for="php">PHP</label>
+                        <label for="mensagem">Conte um pouco sobre você: </label>
+                        <textarea id="mensagem" required placeholder="Deixe aqui sua mensagem..." rows="10"></textarea>
+                    </fieldset>
+                </form>
+            </main>
+            <footer id="rodape" class="estrutura">
+                <p>Desenvolvido por: Gabriel Serpa | Copyright &copy;</p>
+            </footer>
+        </div>
+    </body>
+</html>
