@@ -3,21 +3,18 @@
     <head>
         <title>Formulário</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--<link rel="stylesheet" type="text/css" href="style.css">-->
     </head>
     <body>
         <div id="tela">
             <header id="cabecalho" class="estrutura">
                 <h1>Formulário de Contato</h1>    
                 <nav id="menu">
-                    <ul>
-                        <a href="index.html"><li>Página Inicial</li></a>
-                        <a href="index.html"><li>Formulário</li></a>
-                    </ul> 
+                        <a href="index.html">Página Inicial</a>
                 </nav>    
             </header>
             <main id="corpo" class="estrutura">
-                <form method="post">
+                <form>
                     <fieldset id="divisoes">
                         <legend>Seus Dados</legend>
                         <div class="nome">
@@ -64,6 +61,7 @@
                         </div>
                         <label for="mensagem" id="frase">Conte um pouco sobre você: </label>
                         <textarea id="mensagem" required placeholder="Deixe aqui sua mensagem..." rows="10"></textarea>
+                        <input type="submit" value="Enviar">
                     </fieldset>
                 </form>
             </main>
